@@ -1,10 +1,17 @@
-import { CheckCircle } from 'lucide-react';
+import { CheckCircle, Baby, Smile, Star, Sparkles } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import ScrollReveal from '../components/ScrollReveal';
+import SEO from '../components/SEO';
 
 export default function Programs() {
     return (
         <PageTransition>
+            <SEO
+                title="Programs & Curriculum"
+                description="Explore our programs: Play Group, Nursery, Jr. KG, and Sr. KG. Age-appropriate curriculum with focus on holistic development, creativity, and learning through play."
+                keywords="playgroup wardha, nursery program, jr kg sr kg, preschool curriculum wardha"
+                canonical="https://happymindswardha.com/programs"
+            />
             <div className="container" style={{ padding: '4rem 1rem' }}>
                 <ScrollReveal>
                     <h1 className="section-title">Programs & Facilities</h1>

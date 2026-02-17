@@ -1,10 +1,17 @@
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import ScrollReveal from '../components/ScrollReveal';
+import SEO from '../components/SEO';
 
 export default function Contact() {
     return (
         <PageTransition>
+            <SEO
+                title="Contact Us"
+                description="Contact Happy Minds School Wardha. Visit us at Priyadarshini Mahila Mahavidyalaya, New Nalwadi, Wardha - 442001. Call: 9226340516 | Email: happyminds112024@gmail.com"
+                keywords="contact happy minds wardha, preschool wardha address, preschool wardha phone"
+                canonical="https://happymindswardha.com/contact"
+            />
             <div className="container" style={{ padding: '4rem 1rem' }}>
                 <ScrollReveal>
                     <h1 className="section-title">Contact Us</h1>

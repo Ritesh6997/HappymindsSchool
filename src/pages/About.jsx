@@ -1,9 +1,17 @@
+import { Target, Users, Heart } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import ScrollReveal from '../components/ScrollReveal';
+import SEO from '../components/SEO';
 
 export default function About() {
     return (
         <PageTransition>
+            <SEO
+                title="About Us"
+                description="Learn about Happy Minds School Wardha. Our mission is to cultivate the joy of learning through holistic development, nurturing creativity, critical thinking, and strong character."
+                keywords="about happy minds, preschool philosophy, education wardha"
+                canonical="https://happymindswardha.com/about"
+            />
             <div className="container" style={{ padding: '4rem 1rem' }}>
                 <div style={{ maxWidth: '900px', margin: '0 auto' }}>
                     <ScrollReveal>

@@ -1,6 +1,7 @@
-import { ArrowDown } from 'lucide-react';
+import { ClipboardCheck, FileText, UserCheck, Calendar } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import ScrollReveal from '../components/ScrollReveal';
+import SEO from '../components/SEO';
 
 export default function Admissions() {
     const steps = [
@@ -14,6 +15,12 @@ export default function Admissions() {
 
     return (
         <PageTransition>
+            <SEO
+                title="Admissions Open"
+                description="Admissions now open for Play Group, Nursery, Jr. KG, and Sr. KG at Happy Minds School Wardha. Simple enrollment process. Contact us at 9226340516."
+                keywords="admissions wardha preschool, playschool admission wardha, nursery admission"
+                canonical="https://happymindswardha.com/admissions"
+            />
             <div className="container" style={{ padding: '4rem 1rem' }}>
                 <ScrollReveal>
                     <h1 className="section-title">Admission Process</h1>

@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { BookOpen, Users, Star, ArrowRight } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import ScrollReveal from '../components/ScrollReveal';
+import SEO from '../components/SEO';
 
 import logo from '../assets/school-logo.jpg';
 
@@ -18,6 +19,12 @@ import activity8 from '../assets/activity-8.jpg';
 export default function Home() {
     return (
         <PageTransition>
+            <SEO
+                title="Happy Minds Play & Preschool Wardha | Best Preschool in Wardha"
+                description="Happy Minds School offers quality preschool education in Wardha with 25+ activities including music, drama, sports, and field trips. Admissions open for Play Group, Nursery, Jr. KG, and Sr. KG."
+                keywords="preschool wardha, playschool wardha, nursery wardha, kindergarten wardha, happy minds school, best preschool wardha"
+                canonical="https://happymindswardha.com/"
+            />
             <div style={{ flex: 1 }}>
                 {/* Hero Section */}
                 <section style={{
@@ -32,7 +39,7 @@ export default function Home() {
                                 <span className="school-name">Happy Minds School</span>
                             </h1>
                             <div style={{ marginBottom: '2rem' }}>
-                                <img src={logo} alt="Happy Minds School Logo" style={{ height: '120px', width: 'auto',borderRadius: '50%' }} />
+                                <img src={logo} alt="Happy Minds School Logo" style={{ height: '120px', width: 'auto', borderRadius: '50%' }} />
                             </div>
                             <p style={{ fontSize: '1.5rem', color: 'var(--color-text-muted)', marginBottom: '3rem', maxWidth: '800px', margin: '0 auto 3rem' }}>
                                 "Cultivate the Joy of Learning"

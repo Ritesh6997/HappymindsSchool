@@ -17,7 +17,7 @@ export default function Header() {
         }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem' }}>
                 <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none' }}>
-                    <img src={logo} alt="Happy Minds Logo" style={{ width: '50px', height: '50px', objectFit: 'contain' }} />
+                    <img src={logo} alt="HMS" style={{ width: '50px', height: '50px', objectFit: 'contain' }} />
                     <span style={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--color-primary)', fontFamily: 'var(--font-heading)' }}>Happy Minds</span>
                 </Link>
 

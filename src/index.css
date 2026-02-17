@@ -51,6 +51,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Fredoka:wght@400;600&family=Outfit:wght@400;700&display=swap');
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -208,5 +214,26 @@ button {
   .grid-cols-3,
   .grid-cols-4 {
     grid-template-columns: 1fr !important;
+  }
+}
+
+/* Header Branding */
+.brand-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.brand-name {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .brand-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .brand-name {
+    font-size: 1.2rem;
   }
 }

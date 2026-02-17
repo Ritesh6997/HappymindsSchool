@@ -237,3 +237,37 @@ button {
     font-size: 1.2rem;
   }
 }
+
+/* Hero Section Typography */
+.hero-title {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-primary);
+}
+
+.school-name {
+  color: var(--color-secondary);
+  font-size: 4rem;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem !important;
+    /* Override global h1 if needed */
+  }
+
+  .school-name {
+    font-size: 2.5rem;
+    display: block;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .school-name {
+    font-size: 1.7rem;
+    /* Adjusted to fit on one line */
+    white-space: nowrap;
+  }
+}

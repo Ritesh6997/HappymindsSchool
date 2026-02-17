@@ -25,9 +25,9 @@ export default function Home() {
                 }}>
                     <div className="container">
                         <ScrollReveal>
-                            <h1 style={{ fontSize: '3.5rem', marginBottom: '1.5rem', color: 'var(--color-primary)' }}>
+                            <h1 className="hero-title">
                                 Welcome to <br />
-                                <span style={{ color: 'var(--color-secondary)', fontSize: '4rem' }}>Happy Minds School</span>
+                                <span className="school-name">Happy Minds School</span>
                             </h1>
                             <p style={{ fontSize: '1.5rem', color: 'var(--color-text-muted)', marginBottom: '3rem', maxWidth: '800px', margin: '0 auto 3rem' }}>
                                 "Cultivate the Joy of Learning"

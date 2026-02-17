@@ -3,6 +3,8 @@ import { BookOpen, Users, Star, ArrowRight } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import ScrollReveal from '../components/ScrollReveal';
 
+import logo from '../assets/school-logo.jpg';
+
 // Import Activity Images
 import activity1 from '../assets/activity-1.jpg';
 import activity2 from '../assets/activity-2.jpg';
@@ -29,6 +31,9 @@ export default function Home() {
                                 Welcome to <br />
                                 <span className="school-name">Happy Minds School</span>
                             </h1>
+                            <div style={{ marginBottom: '2rem' }}>
+                                <img src={logo} alt="Happy Minds School Logo" style={{ height: '120px', width: 'auto',borderRadius: '50%' }} />
+                            </div>
                             <p style={{ fontSize: '1.5rem', color: 'var(--color-text-muted)', marginBottom: '3rem', maxWidth: '800px', margin: '0 auto 3rem' }}>
                                 "Cultivate the Joy of Learning"
                             </p>

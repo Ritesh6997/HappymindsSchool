@@ -41,13 +41,14 @@ export default function Footer() {
                             </li>
                             <li style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem', color: '#d1d5db' }}>
                                 <Phone size={20} />
-                                <span>9373640774 / 9226340516</span>
+                                <span>9226340516</span>
                             </li>
                             <li style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', color: '#d1d5db' }}>
                                 <Mail size={20} />
-                                <span>info@happyminds.com</span>
+                                <span>happyminds112024@gmail.com</span>
                             </li>
                         </ul>
+
                     </div>
 
                 </div>

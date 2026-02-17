@@ -15,8 +15,7 @@ export default function Header() {
         }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem' }}>
                 <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none' }}>
-                    {/* Placeholder for Logo - You can replace this with an img tag later if needed */}
-                    <div style={{ width: '40px', height: '40px', background: 'var(--color-secondary)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: 'bold' }}>HM</div>
+                    <img src="/src/assets/school-logo.png" alt="Happy Minds Logo" style={{ width: '50px', height: '50px', objectFit: 'contain' }} />
                     <span style={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--color-primary)', fontFamily: 'var(--font-heading)' }}>Happy Minds</span>
                 </Link>
 

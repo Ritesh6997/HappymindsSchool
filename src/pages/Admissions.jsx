@@ -1,4 +1,4 @@
-import { ClipboardCheck, FileText, UserCheck, Calendar } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import ScrollReveal from '../components/ScrollReveal';
 import SEO from '../components/SEO';
